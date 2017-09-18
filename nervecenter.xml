@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>NERVECENTER</short>
+  <description>Network management platform. Enable this service if you run NerveCenter.</description>
+  <port protocol="tcp" port="80"/> <!-- NerveCenter Web Interface -->
+  <port protocol="tcp" port="32504"/> <!-- NerveCenter Client & Admin connection point -->
+  <port protocol="tcp" port="32505"/> <!-- NerveCenter-to-NerveCenter connection point -->
+  <port protocol="tcp" port="32506"/> <!-- NerveCenter Command-Line connection point -->
+  <port protocol="tcp" port="32508"/> <!-- NerveCenter API connection point -->
+  <port protocol="udp" port="162"/> <!-- SNMP Notification port (inbound traps & informs) -->
+  <port protocol="udp" port="161"/> <!-- SNMP Master agent listening port -->
+</service>
