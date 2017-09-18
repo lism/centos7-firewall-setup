@@ -1,10 +1,10 @@
 # centos7-firewall-setup
-Define NerveCenter as a service to CentOS7 firewall-cmd
+Define NerveCenter as a service to CentOS7 firewalld service.
 
-For CentOS7 systems running firewall-cmd, the nervecenter.xml file and setup.sh
-script allows quick provisioning of firewall-cmd so as to include NerveCenter.
+For CentOS7 systems running firewalld.service, the nervecenter.xml file and setup.sh
+script allows quick provisioning of firewalld so as to include NerveCenter.
 Use this script if you are setting up and managing NerveCenter on several CentOS7
-hosts.
+hosts and using the firewalld.service, firewall-cmd and fiewall-config usilities.
 
 Once this script has been run, 'nervecenter' will appear in the Services listing
 of /usr/bin/firewall-config.  The state of the 'nervecenter' service can seen and
